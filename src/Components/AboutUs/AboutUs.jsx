@@ -16,8 +16,8 @@ const AboutUs = () => {
         <section className='sectionUs'>
             <h3>Seguinos en nuestras Redes Sociales</h3>
 
-            <a href="https://www.instagram.com/todoparatuemprendimient0/" id="igUs"><img src={imgIG} alt="Instagram" /></a>
-            <a href="https://web.facebook.com/people/Todo-Para-Tu-Emprendimiento/100095354197270/" id="fbUs"><img src={imgFB} alt="Facebook" /></a>
+            <a href="https://www.instagram.com/papelera_canuelas/" id="igUs"><img src={imgIG} alt="Instagram" /></a>
+            <a href="https://www.facebook.com/papeleracanuelass/" id="fbUs"><img src={imgFB} alt="Facebook" /></a>
         </section>
 
         <section className='sectionUs'>
