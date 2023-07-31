@@ -1,0 +1,71 @@
+#igUs img{
+    height: 100px;
+    width: 100px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+#igUs img:hover{
+    transition: all 1s;
+    scale: 1.1;
+    filter: drop-shadow(0px 2px 3px #EBEBEB);
+}
+
+
+
+
+#fbUs img{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+#fbUs img:hover{
+    transition: all 1s;
+    scale: 1.1;
+    filter: drop-shadow(0px 2px 3px #EBEBEB);
+}
+
+
+.containerBackgroundUs{
+    background: url("../../Img/color-black-facts.jpg");
+}
+
+.sectionUs{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+
+
+.efectoImgWhats {
+    margin-top: -20px;
+    width: 100%;
+    height: 600px;
+    --g:#0000 ,#000 .5deg 90deg,#0000 91deg;
+    --m:
+    conic-gradient(from 45deg ,var(--g)) 20px 0 no-repeat,
+    conic-gradient(from 135deg,var(--g)) 0 20px no-repeat,
+    conic-gradient(from 225deg,var(--g)) -20px 0 no-repeat,
+    conic-gradient(from 315deg,var(--g)) 0 -20px no-repeat;
+    -webkit-mask: var(--m);
+    mask: var(--m);
+    transition: 0.3s linear;
+    filter: grayscale(0.5);
+    cursor: pointer;
+}
+
+.efectoImgWhats:hover {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+    filter: grayscale(0);
+}
+
+.efectoImgWhats:active {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+    filter: grayscale(0);
+}
