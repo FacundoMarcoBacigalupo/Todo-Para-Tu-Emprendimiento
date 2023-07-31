@@ -1,6 +1,7 @@
 import React from 'react'
 import LogoTipo from "../../Img/Todo-Para-Tu-Emprendimiento.jpg"
 import { NavLink } from 'react-router-dom'
+import navBarImg from '../../Img/menu-hamburguesa.png'
 import "./navbar.css"
 
 
@@ -10,8 +11,8 @@ const NavBar = () => {
             <div className="container-fluid">
                 <NavLink to={'/'} className="navbar-brand"><img src={LogoTipo} alt='LogoTipo' id='ImgLogoNavBar' /></NavLink>
 
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-                    <span className="navbar-toggler-icon"></span>
+                <button style={{height:"40px", width:"80px", padding:"0px"}} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span  class="navbar-toggler"><img style={{height:"30px", margin:"auto"}} src={navBarImg} alt="img" /></span>
                 </button>
 
                 <div className="collapse navbar-collapse" id="mynavbar">
