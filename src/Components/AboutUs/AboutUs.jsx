@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import imgIG from '../../Img/INSTAGRAM.png'
 import imgFB from '../../Img/FACEBOOK.png'
-import whatsappImagen from '../../Img/whatsappImagen.png'
 import "./aboutUs.css"
 
 
@@ -18,13 +17,6 @@ const AboutUs = () => {
 
             <a href="https://www.instagram.com/papelera_canuelas/" id="igUs"><img src={imgIG} alt="Instagram" /></a>
             <a href="https://www.facebook.com/papeleracanuelass/" id="fbUs"><img src={imgFB} alt="Facebook" /></a>
-        </section>
-
-        <section className='sectionUs'>
-            <h3>Vamos a hablar...</h3>
-            <a href="https://wa.me/+5401127398858">
-                <img src={whatsappImagen} class="efectoImgWhats" alt="WhatsApp" />
-            </a>  
         </section>
         </Fragment>
     )

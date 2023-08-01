@@ -27,8 +27,8 @@ const Home = () => {
     return (
         <Fragment>
         <div className="container-fluid p-5 text-center containerBackground">
-            <h1>Todo Para Tu Emprendimiento</h1>
-            <h5>📊Todo para tu emprendimiento💸 Bolsas, etiquetas para zapatillas y más👟 tu clave al éxito ¡Impulsa tu marca! 🛍️ Cañuelas, Buenos Aires📍</h5> 
+            <h1>Papelera Cañuelas</h1>
+            <h5>🛍️ Bolsas, etiquetas para zapatillas y más 👟 tu clave al éxito ¡Impulsa tu marca! 📊 Cañuelas, Buenos Aires📍</h5> 
         </div>
             
         <div className="container mt-5">
